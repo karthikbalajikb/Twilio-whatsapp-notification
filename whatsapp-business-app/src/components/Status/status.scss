@@ -1,0 +1,43 @@
+.Status {
+  padding-top: 30px;
+}
+
+.Status__text {
+  font-size: smaller;
+  color: white;
+
+  &--notsent {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+  }
+
+  &--sending {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+  }
+
+  &--sent {
+    background-color: orange;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+  }
+
+  &--delivered {
+    background-color: #03A9F4;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+  }
+
+  &--READ {
+    background-color: green;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+  }
+}

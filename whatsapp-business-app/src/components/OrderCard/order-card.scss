@@ -1,0 +1,29 @@
+.ordercard{
+    display: inline-flex;
+    flex-flow: row;
+    padding: 2%;
+    justify-content: space-evenly;
+    border: 1px solid darkgray;
+    box-shadow: 3px 3px 8px 0px lightgrey;
+    margin-left: 10%;
+    align-items: center;
+
+    &__imgdiv{
+        width: 120px;
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        background-color: beige;
+    }
+
+    &__desc{
+        padding: 10px;
+    }
+
+    &__notification{
+        display: flex;
+        flex-direction: column;
+    }
+}
